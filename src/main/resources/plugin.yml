@@ -1,0 +1,21 @@
+name: mmoClass
+main: mmo.Class.MMOClass
+version: 0.1
+website: http://forums.bukkit.org/threads/
+author: Rycochet <rycochet@rycochet.com>
+depend: [mmoCore]
+
+description: Provides an API for controlling Class.
+permissions:
+  mmo.class.self.set:
+    description: Allowed to set their own Class
+    default: true
+  mmo.class.self.change:
+    description: Allowed to change their own Class
+    default: op
+  mmo.class.all.set:
+    description: Allowed to set anyone's Class (including own)
+    default: op
+  mmo.class.all.change:
+    description: Allowed to change anyone's Class (including own)
+    default: op
