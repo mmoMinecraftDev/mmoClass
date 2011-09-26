@@ -16,14 +16,14 @@
  */
 package mmo.Class;
 
-import java.util.BitSet;
 import mmo.Core.MMOPlugin;
+import mmo.Core.util.EnumBitSet;
 
 public class MMOClass extends MMOPlugin {
 
 	@Override
-	public BitSet mmoSupport(BitSet support) {
-		support.set(MMO_DATABASE);
+	public EnumBitSet mmoSupport(EnumBitSet support) {
+		support.set(Support.MMO_DATABASE);
 		return support;
 	}
 
