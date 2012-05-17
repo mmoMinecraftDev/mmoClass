@@ -1,5 +1,5 @@
 name: mmoClass
-version: ${releaseVersion} b${buildNumber}
+version: ${releaseVersion}.${buildNumber}
 description: Allow players to have a class system to limit skills, magic, etc.
 author: mmoMinecraftDev
 website: http://mmo.me.uk
